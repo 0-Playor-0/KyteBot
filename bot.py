@@ -6,7 +6,7 @@ from discord.ext import commands
 import aiofiles
 
 # Load token from environment variables for security
-OurToken = os.getenv('DISCORD_BOT_TOKEN', 'MTI0OTI1MzUyMDI5NzY4OTE0OQ.GouQFz.aRmKD5avKfRCd6gjKjEOu6ESbmcW5wLTrY9Psw')
+OurToken = os.getenv('DISCORD_BOT_TOKEN')
 
 emotirl = "https://d3f8-35-201-212-43.ngrok-free.app/feeling_pred"
 disorderl = ""
